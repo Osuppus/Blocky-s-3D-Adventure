@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyOnCollision : MonoBehaviour
 {
-     
+    
 
     // Update is called once per frame
     private void OnCollisionEnter(Collision collision)
@@ -15,10 +15,13 @@ public class DestroyOnCollision : MonoBehaviour
            
             Destroy(collision.gameObject); 
             
-            //Debug.Log("Hello")
+            
+            
             
             
         }
+
+        
     }
 
     

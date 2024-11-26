@@ -15,9 +15,12 @@ public class PlayerController : MonoBehaviour
 
     public Rigidbody rb;
     public float gravityScale = 5;
+    public AudioSource audioPlayer;
+
+    public AudioClip DeathSFX;
 
     // Start is called before the first frame update
-    
+
 
     // Update is called once per frame
     void Update()
@@ -78,4 +81,12 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(Physics.gravity * (gravityScale - 1) * rb.mass);
     }
 
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "CollisionTag")
+        {
+            audioPlayer.PlayOneShot(DeathSFX);
+        }
+    }
+    
 }
