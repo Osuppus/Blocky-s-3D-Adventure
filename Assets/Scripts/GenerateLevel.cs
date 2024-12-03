@@ -9,6 +9,8 @@ public class NewBehaviourScript : MonoBehaviour
     public bool creatingSection = false;
     public int secNum;   
 
+    
+
     // Start is called before the first frame update
    
     // Update is called once per frame
@@ -18,6 +20,7 @@ public class NewBehaviourScript : MonoBehaviour
         {
             creatingSection = true;
             StartCoroutine(GenerateSection()); 
+            
         }
     }
 
@@ -26,7 +29,9 @@ public class NewBehaviourScript : MonoBehaviour
         secNum = Random.Range(0, 3); 
         Instantiate(section[secNum], new Vector3(0, 0, zPos), Quaternion.identity); 
         zPos += 45; 
-        yield return new WaitForSeconds(4); 
+        yield return new WaitForSeconds(8); 
         creatingSection = false; 
     }
+
+   
 }

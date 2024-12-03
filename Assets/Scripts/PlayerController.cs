@@ -19,6 +19,11 @@ public class PlayerController : MonoBehaviour
 
     public AudioClip DeathSFX;
 
+    public ParticleSystem dirtParticles;
+
+
+     
+
     // Start is called before the first frame update
 
 
@@ -51,6 +56,7 @@ public class PlayerController : MonoBehaviour
             {
                 isJumping = true; 
                 StartCoroutine(JumpSequence()); 
+                dirtParticles.Pause();
             }
         }
 
@@ -63,13 +69,16 @@ public class PlayerController : MonoBehaviour
              if (comingDown == true)
             {
                 transform.Translate(Vector3.up * Time.deltaTime * -3, Space.World);
+                dirtParticles.Play(); 
             }
+
+            
         }
     }
 
    IEnumerator JumpSequence()
    {
-     yield return new WaitForSeconds(0.65f);
+     yield return new WaitForSeconds(0.45f);
       comingDown = true; 
       yield return new WaitForSeconds(0.55f);
       isJumping = false; 
@@ -88,5 +97,7 @@ public class PlayerController : MonoBehaviour
             audioPlayer.PlayOneShot(DeathSFX);
         }
     }
+
+    
     
 }
