@@ -10,5 +10,6 @@ public class CoinCollect : MonoBehaviour
    {
      coinFX.Play();
      this.gameObject.SetActive(false);
+     CoinManager.coinCount += 1;  
    } 
 }
