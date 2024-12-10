@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -277,7 +276,7 @@ GameObject:
   - component: {fileID: 133223527}
   - component: {fileID: 133223530}
   - component: {fileID: 133223531}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Big Obstacle cube '
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -422,7 +421,7 @@ GameObject:
   - component: {fileID: 138047582}
   - component: {fileID: 138047581}
   - component: {fileID: 138047585}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Section '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -655,7 +654,7 @@ GameObject:
   - component: {fileID: 152174865}
   - component: {fileID: 152174869}
   - component: {fileID: 152174870}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (3)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -801,7 +800,7 @@ GameObject:
   - component: {fileID: 186434802}
   - component: {fileID: 186434806}
   - component: {fileID: 186434807}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (16)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -947,7 +946,7 @@ GameObject:
   - component: {fileID: 236240483}
   - component: {fileID: 236240487}
   - component: {fileID: 236240488}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (18)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -1093,7 +1092,7 @@ GameObject:
   - component: {fileID: 243131813}
   - component: {fileID: 243131816}
   - component: {fileID: 243131817}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (2)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -1239,7 +1238,7 @@ GameObject:
   - component: {fileID: 248413811}
   - component: {fileID: 248413815}
   - component: {fileID: 248413816}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (7)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -1385,7 +1384,7 @@ GameObject:
   - component: {fileID: 434531644}
   - component: {fileID: 434531648}
   - component: {fileID: 434531649}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (2)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -1531,7 +1530,7 @@ GameObject:
   - component: {fileID: 446845669}
   - component: {fileID: 446845672}
   - component: {fileID: 446845673}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (25)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -1677,7 +1676,7 @@ GameObject:
   - component: {fileID: 447612483}
   - component: {fileID: 447612486}
   - component: {fileID: 447612487}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (1)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -1926,7 +1925,7 @@ GameObject:
   - component: {fileID: 466848102}
   - component: {fileID: 466848105}
   - component: {fileID: 466848106}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big Obstacle cube  (1)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -2072,7 +2071,7 @@ GameObject:
   - component: {fileID: 470860202}
   - component: {fileID: 470860206}
   - component: {fileID: 470860207}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big Obstacle cube  (1)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -2218,7 +2217,7 @@ GameObject:
   - component: {fileID: 504486686}
   - component: {fileID: 504486690}
   - component: {fileID: 504486691}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall 2
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -2363,7 +2362,7 @@ GameObject:
   - component: {fileID: 505931724}
   - component: {fileID: 505931723}
   - component: {fileID: 505931727}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Section '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2512,7 +2511,7 @@ GameObject:
   - component: {fileID: 590819321}
   - component: {fileID: 590819325}
   - component: {fileID: 590819326}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (2)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -2658,7 +2657,7 @@ GameObject:
   - component: {fileID: 599493150}
   - component: {fileID: 599493154}
   - component: {fileID: 599493155}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -2848,7 +2847,7 @@ GameObject:
   - component: {fileID: 677277918}
   - component: {fileID: 677277922}
   - component: {fileID: 677277923}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (4)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -2993,7 +2992,7 @@ GameObject:
   - component: {fileID: 690949737}
   - component: {fileID: 690949736}
   - component: {fileID: 690949740}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Section '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3135,7 +3134,7 @@ GameObject:
   - component: {fileID: 695510134}
   - component: {fileID: 695510137}
   - component: {fileID: 695510138}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (11)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -3375,7 +3374,7 @@ GameObject:
   - component: {fileID: 705898421}
   - component: {fileID: 705898425}
   - component: {fileID: 705898426}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (12)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -3654,7 +3653,7 @@ GameObject:
   - component: {fileID: 844751543}
   - component: {fileID: 844751547}
   - component: {fileID: 844751548}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (5)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -3800,7 +3799,7 @@ GameObject:
   - component: {fileID: 845529942}
   - component: {fileID: 845529946}
   - component: {fileID: 845529947}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (3)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -4074,7 +4073,7 @@ GameObject:
   - component: {fileID: 984555407}
   - component: {fileID: 984555411}
   - component: {fileID: 984555412}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 'Big Obstacle cube '
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -4220,7 +4219,7 @@ GameObject:
   - component: {fileID: 1008064872}
   - component: {fileID: 1008064875}
   - component: {fileID: 1008064876}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (9)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -4366,7 +4365,7 @@ GameObject:
   - component: {fileID: 1037289113}
   - component: {fileID: 1037289117}
   - component: {fileID: 1037289118}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (6)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -4512,7 +4511,7 @@ GameObject:
   - component: {fileID: 1046157820}
   - component: {fileID: 1046157823}
   - component: {fileID: 1046157824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -4658,7 +4657,7 @@ GameObject:
   - component: {fileID: 1062480941}
   - component: {fileID: 1062480945}
   - component: {fileID: 1062480946}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (1)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -4804,7 +4803,7 @@ GameObject:
   - component: {fileID: 1115670658}
   - component: {fileID: 1115670661}
   - component: {fileID: 1115670662}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (19)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -5029,7 +5028,7 @@ GameObject:
   - component: {fileID: 1159629628}
   - component: {fileID: 1159629631}
   - component: {fileID: 1159629632}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (26)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -5188,7 +5187,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 667629011a557ca46b0a975ddd025a6b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5303,7 +5302,7 @@ GameObject:
   - component: {fileID: 1187667289}
   - component: {fileID: 1187667293}
   - component: {fileID: 1187667294}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big Obstacle cube  (2)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -5449,7 +5448,7 @@ GameObject:
   - component: {fileID: 1195722978}
   - component: {fileID: 1195722982}
   - component: {fileID: 1195722983}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (13)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -5595,7 +5594,7 @@ GameObject:
   - component: {fileID: 1202557091}
   - component: {fileID: 1202557095}
   - component: {fileID: 1202557096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (6)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -5741,7 +5740,7 @@ GameObject:
   - component: {fileID: 1203579975}
   - component: {fileID: 1203579978}
   - component: {fileID: 1203579979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (10)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -5887,7 +5886,7 @@ GameObject:
   - component: {fileID: 1219906331}
   - component: {fileID: 1219906335}
   - component: {fileID: 1219906336}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (5)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -6033,7 +6032,7 @@ GameObject:
   - component: {fileID: 1244349952}
   - component: {fileID: 1244349956}
   - component: {fileID: 1244349957}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -6179,7 +6178,7 @@ GameObject:
   - component: {fileID: 1265071319}
   - component: {fileID: 1265071323}
   - component: {fileID: 1265071324}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (10)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -6325,7 +6324,7 @@ GameObject:
   - component: {fileID: 1279794138}
   - component: {fileID: 1279794141}
   - component: {fileID: 1279794142}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (27)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -6539,7 +6538,7 @@ GameObject:
   - component: {fileID: 1285655364}
   - component: {fileID: 1285655367}
   - component: {fileID: 1285655368}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (12)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -6684,7 +6683,7 @@ GameObject:
   - component: {fileID: 1354023672}
   - component: {fileID: 1354023675}
   - component: {fileID: 1354023676}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Start Section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6826,7 +6825,7 @@ GameObject:
   - component: {fileID: 1384740169}
   - component: {fileID: 1384740173}
   - component: {fileID: 1384740174}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (14)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -6972,7 +6971,7 @@ GameObject:
   - component: {fileID: 1390736668}
   - component: {fileID: 1390736672}
   - component: {fileID: 1390736673}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (11)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -7118,7 +7117,7 @@ GameObject:
   - component: {fileID: 1402550037}
   - component: {fileID: 1402550041}
   - component: {fileID: 1402550042}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (7)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -7264,7 +7263,7 @@ GameObject:
   - component: {fileID: 1453140138}
   - component: {fileID: 1453140142}
   - component: {fileID: 1453140143}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (4)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -12240,7 +12239,7 @@ GameObject:
   - component: {fileID: 1477027424}
   - component: {fileID: 1477027427}
   - component: {fileID: 1477027428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (20)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -12481,7 +12480,7 @@ GameObject:
   - component: {fileID: 1557231268}
   - component: {fileID: 1557231272}
   - component: {fileID: 1557231273}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (2)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -12627,7 +12626,7 @@ GameObject:
   - component: {fileID: 1577330585}
   - component: {fileID: 1577330588}
   - component: {fileID: 1577330589}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (22)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -12817,7 +12816,7 @@ GameObject:
   - component: {fileID: 1596965746}
   - component: {fileID: 1596965750}
   - component: {fileID: 1596965751}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -12963,7 +12962,7 @@ GameObject:
   - component: {fileID: 1641960642}
   - component: {fileID: 1641960645}
   - component: {fileID: 1641960646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall 2
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -13109,7 +13108,7 @@ GameObject:
   - component: {fileID: 1663119544}
   - component: {fileID: 1663119548}
   - component: {fileID: 1663119549}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (8)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -13255,7 +13254,7 @@ GameObject:
   - component: {fileID: 1683448036}
   - component: {fileID: 1683448040}
   - component: {fileID: 1683448041}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (1)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -13535,7 +13534,7 @@ GameObject:
   - component: {fileID: 1709565633}
   - component: {fileID: 1709565636}
   - component: {fileID: 1709565637}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (24)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -13681,7 +13680,7 @@ GameObject:
   - component: {fileID: 1715562951}
   - component: {fileID: 1715562954}
   - component: {fileID: 1715562955}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -13827,7 +13826,7 @@ GameObject:
   - component: {fileID: 1778366210}
   - component: {fileID: 1778366213}
   - component: {fileID: 1778366214}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (21)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -14101,7 +14100,7 @@ GameObject:
   - component: {fileID: 1837517724}
   - component: {fileID: 1837517727}
   - component: {fileID: 1837517728}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (1)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -14247,7 +14246,7 @@ GameObject:
   - component: {fileID: 1861080077}
   - component: {fileID: 1861080081}
   - component: {fileID: 1861080082}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big Obstacle cube  (4)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -14393,7 +14392,7 @@ GameObject:
   - component: {fileID: 1895166666}
   - component: {fileID: 1895166669}
   - component: {fileID: 1895166670}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (23)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -14539,7 +14538,7 @@ GameObject:
   - component: {fileID: 1954596212}
   - component: {fileID: 1954596216}
   - component: {fileID: 1954596217}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (19)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -14704,16 +14703,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87aae88a33a423f4bbf395cf14fa3014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 0.1
+  playerSpeed: 3.66
   leftRightSpeed: 5
   isJumping: 0
   comingDown: 0
   playerObject: {fileID: 1999928131}
-  rb: {fileID: 1999928137}
   gravityScale: 0.5
   audioPlayer: {fileID: 1170740609}
-  DeathSFX: {fileID: 8300000, guid: 564368132c7de8549abce2526a8a0546, type: 3}
+  DeathSFX: {fileID: 8300000, guid: 667629011a557ca46b0a975ddd025a6b, type: 3}
   dirtParticles: {fileID: 1472197511}
+  jumpForce: 5
+  isGrounded: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!23 &1999928134
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14802,7 +14805,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 126
@@ -14842,7 +14845,7 @@ GameObject:
   - component: {fileID: 2035573545}
   - component: {fileID: 2035573549}
   - component: {fileID: 2035573550}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -14988,7 +14991,7 @@ GameObject:
   - component: {fileID: 2042962877}
   - component: {fileID: 2042962881}
   - component: {fileID: 2042962882}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (15)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -15134,7 +15137,7 @@ GameObject:
   - component: {fileID: 2048600458}
   - component: {fileID: 2048600462}
   - component: {fileID: 2048600463}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (9)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -15280,7 +15283,7 @@ GameObject:
   - component: {fileID: 2074992279}
   - component: {fileID: 2074992283}
   - component: {fileID: 2074992284}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle Tall (17)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}
@@ -15426,7 +15429,7 @@ GameObject:
   - component: {fileID: 2083438143}
   - component: {fileID: 2083438146}
   - component: {fileID: 2083438147}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Obstacle cube (8)
   m_TagString: CollisionTag
   m_Icon: {fileID: 0}

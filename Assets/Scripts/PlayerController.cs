@@ -13,20 +13,31 @@ public class PlayerController : MonoBehaviour
     public bool comingDown = false; 
     public GameObject playerObject; 
 
-    public Rigidbody rb;
+    
     public float gravityScale = 5;
     public AudioSource audioPlayer;
 
     public AudioClip DeathSFX;
 
     public ParticleSystem dirtParticles;
+    public float jumpForce = 5f; // Customizable jump strength
+
+    private Rigidbody rb;
+
+    public bool isGrounded;
+    public LayerMask groundLayer; 
 
 
-     
 
     // Start is called before the first frame update
 
+    void Start()
 
+    {
+
+        rb = GetComponent<Rigidbody>(); // Get the Rigidbody component [3, 5, 6]
+
+    }
     // Update is called once per frame
     void Update()
     {
@@ -39,15 +50,12 @@ public class PlayerController : MonoBehaviour
                  transform.Translate(Vector3.left * Time.deltaTime * leftRightSpeed);
             }
             
-        }  
+        }
 
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
-            if(this.gameObject.transform.position.x < LevelBoundry.rightSide)
-            {
-                transform.Translate(Vector3.left * Time.deltaTime * leftRightSpeed * -1);
-            }
-            
+            transform.Translate(Vector3.left * Time.deltaTime * leftRightSpeed * -1);
+
         }  
 
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space))
@@ -57,6 +65,7 @@ public class PlayerController : MonoBehaviour
                 isJumping = true; 
                 StartCoroutine(JumpSequence()); 
                 dirtParticles.Pause();
+               
             }
         }
 
@@ -79,15 +88,18 @@ public class PlayerController : MonoBehaviour
    IEnumerator JumpSequence()
    {
      yield return new WaitForSeconds(0.45f);
-      comingDown = true; 
-      yield return new WaitForSeconds(0.55f);
+        isJumping = false; 
+     yield return new WaitForSeconds(0.05f);
+        comingDown = true;
+        isJumping = true;
+      yield return new WaitForSeconds(0.45f);
       isJumping = false; 
       comingDown = false; 
    }
 
      private void FixedUpdate()
     {
-        rb.AddForce(Physics.gravity * (gravityScale - 1) * rb.mass);
+        //rb.AddForce(Physics.gravity * (gravityScale - 1) * rb.mass);
     }
 
     public void OnCollisionEnter(Collision collision)
@@ -105,6 +117,12 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject); 
         }
     }
-    
-    
+
+    bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, Vector3.down, 1.5f, groundLayer); 
+
+    }
+
+
 }
