@@ -27,6 +27,10 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public LayerMask groundLayer; 
 
+    public AudioSource Levelmusic; 
+
+    public bool levelSong = true; 
+
 
 
     // Start is called before the first frame update
@@ -107,6 +111,13 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.tag == "CollisionTag")
         {
             audioPlayer.PlayOneShot(DeathSFX);
+            
+            if(Levelmusic.isPlaying)
+            {
+                levelSong = false; 
+                Levelmusic.Stop();
+            }
+
         }
     }
 
